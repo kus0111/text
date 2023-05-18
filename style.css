@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: ;
+    box-sizing: border-box;
+}
+.navbar{display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(37, 27, 28);
+    padding: 0;
+    margin: 0;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: right;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    background-color: rgb(37, 27, 28);
+    
+
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 25px 20px;
+    font-size: 15px;
+    color: rgb(211, 67, 67);
+    letter-spacing: 2px;
+
+
+}
+.logo{
+    background-color: red;
+    color: white;
+    padding:top 5px left 5px;
+    text-transform: uppercase;
+}
+.hero_section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 85vh;
+   background-image:linear-gradient(#c08a79,#c09c91) ,url("https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2F049f79b0-ef5d-11ed-b02d-cefaa3091195.jpg?crop=1600%2C900%2C0%2C0");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-blend-mode: multiply;
+}
+.hero_text{
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+}
+.hero_text h1{
+    font-size: 100px;
+    font-weight: 500;
+}
+.hero_text p{
+    letter-spacing: 4px;
+  
+}
+.btn_dark{
+    display: inline-block;
+    background-color: rgb(18, 18, 23);
+    color: wheat;
+    text-decoration: none;
+    padding: 7px 5px;
+    border-radius: 100px;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 15px;
+    transition: all 0.4s;
+
+
+}
+.btn_dark:hover{
+background-color: aliceblue;
+color: brown;
+
+
+}
+.recipe_section{
+padding: 50px 0;
+}
+.image_wra img{
+width: 16%;
+max-width: 100%;
+height: 20vh;
+transition: all 0.4s;
+}
+.image_wra{
+width: 100%;
+height: 100%;
+background-color: #dc7656;
+overflow: hidden;
+position: relative;
+justify-content: space-between;
+}
+.img_wra_text{
+padding: 30px ,50px;
+max-height: 150px;
+position: relative;
+background-color: rgb(0, 0, 0,0.7);
+bottom: 0px;
+color: white;
+text-align: center;
+}
+
+
+.img_hov:hover{
+transform: scale(1.2,1.2);}
+.about_section{
+padding: 70px 0;
+background-color: #c08a79;
+color: white;
+}
+.about_section h4{
+font-size: 28px;
+font-weight: 500;
+}
+.image_res{
+width: 30VW;
+
+height: 30VH;
+}
+.extra_section{
+padding: 70px 0;
+}
+.bg_dark{
+
+background-color: gray;
+}
+.text_light{
+color: aliceblue;
+}
+.btn_{
+display: inline-block;
+background-color: black;
+color: white;
+text-decoration: none;
+padding: 15px 25px;
+border-radius: 100px;
+font-size: 14px;
+transition: all 0.4;
+}
+
+
+.navigation_bar:hover{
+background-color: antiquewhite;
+}
+
+.about_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+    text-decoration: underline;
+    color: aliceblue;
+
+ }
+ 
